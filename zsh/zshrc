@@ -1,0 +1,20 @@
+# Define the oh-my-zsh location
+export ZSH=$HOME/dotfiles/zsh/oh-my-zsh
+
+# ENV
+export TERM=xterm-256color
+export EDITOR=vim
+
+# Set the theme
+ZSH_THEME="pi"
+
+# Install plugins
+plugins=(git docker docker-compose aws go python zsh-syntax-highlighting zsh-autosuggestions)
+
+# Source ZSH
+source $ZSH/oh-my-zsh.sh
+
+alias zshc="vim $HOME/dotfiles/zsh/zshrc"
+alias zshr="source $HOME/.zshrc"
+
+if [ "$TMUX" = "" ]; then tmux; fi
