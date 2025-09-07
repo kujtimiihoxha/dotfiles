@@ -1,3 +1,4 @@
 git/gitconfig.local.symlink
 Brewfile.lock.json
 tmux/config/plugins/
+powerlevel10k/

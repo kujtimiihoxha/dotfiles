@@ -1,1 +1,1 @@
-ln -s ~/.dotfiles/ghostty/config ~/.config/ghostty
+ln -fs ~/.dotfiles/ghostty/config ~/.config/ghostty

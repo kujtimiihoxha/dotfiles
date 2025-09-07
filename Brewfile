@@ -1,11 +1,8 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/bundle'
-
-brew 'coreutils'
-brew 'wget'
-brew 'hub'
-brew 'yt-dlp'
+brew "coreutils"
+brew "wget"
+brew "yt-dlp"
 brew "go"
 brew "zsh"
 brew "node"
@@ -19,9 +16,10 @@ brew "lazygit"
 brew "gdu"
 brew "python"
 brew "bottom"
-brew "ghostty"
 brew "tmux"
-brew 'spaceman-diff'
+brew "spaceman-diff"
+brew "zsh-autosuggestions"
+brew "zsh-syntax-highlighting"
 
 cask '1password'
 cask 'visual-studio-code'
@@ -29,6 +27,7 @@ cask "discord"
 cask "spotify"
 cask "slack"
 cask "ghostty"
+cask "google-chrome"
 
 cask "font-jetbrains-mono-nerd-font"
 
