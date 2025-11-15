@@ -20,6 +20,7 @@ brew "tmux"
 brew "spaceman-diff"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
+brew "1password-cli"
 
 cask '1password'
 cask 'visual-studio-code'
