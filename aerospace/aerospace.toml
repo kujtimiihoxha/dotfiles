@@ -158,6 +158,9 @@ alt-t = 'workspace T'
 alt-b = 'workspace B'
 alt-d = 'workspace D'
 alt-g = 'workspace G'
+alt-x = 'workspace X'
+alt-y = 'workspace Y'
+alt-s = 'workspace S'
 
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
@@ -169,6 +172,9 @@ alt-shift-t = 'move-node-to-workspace T --focus-follows-window'
 alt-shift-b = 'move-node-to-workspace B --focus-follows-window'
 alt-shift-d = 'move-node-to-workspace D --focus-follows-window'
 alt-shift-g = 'move-node-to-workspace G --focus-follows-window'
+alt-shift-x = 'move-node-to-workspace X --focus-follows-window'
+alt-shift-y = 'move-node-to-workspace Y --focus-follows-window'
+alt-shift-s = 'move-node-to-workspace S --focus-follows-window'
 
 alt-tab = 'workspace-back-and-forth'
 alt-shift-tab = 'move-workspace-to-monitor --wrap-around next'
@@ -181,7 +187,10 @@ cmd-shift-t = 'exec-and-forget open -a /Applications/Ghostty.app'
 cmd-shift-b = 'exec-and-forget open -a /Applications/Google\ Chrome.app'
 cmd-shift-d = 'exec-and-forget open -a /Applications/Discord.app'
 cmd-shift-g = 'exec-and-forget open -a /Users/kujtimhoxha/Applications/Chrome\ Apps.localized/Github.app'
+cmd-shift-x = 'exec-and-forget open -a /Users/kujtimhoxha/Applications/Chrome\ Apps.localized/X.app'
+cmd-shift-y = 'exec-and-forget open -a /Users/kujtimhoxha/Applications/Chrome\ Apps.localized/YouTube.app'
 cmd-shift-m = 'exec-and-forget open -a /Applications/Spotify.app'
+cmd-shift-s = 'exec-and-forget open -a /Applications/Slack.app'
 
 # 'service' binding mode declaration.
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -219,5 +228,17 @@ if.app-id = 'com.google.Chrome.app.mjoklplbddabcmpepnokjaffbmgbkkgg'
 run = "move-node-to-workspace G"
 
 [[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.lodlkdfmihgonocnmddehnfgiljnadcf'
+run = "move-node-to-workspace X"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.agimnkijcaahngcdmfeangaknmldooml'
+run = "move-node-to-workspace Y"
+
+[[on-window-detected]]
 if.app-id = 'com.spotify.client'
 run = "move-node-to-workspace M"
+
+[[on-window-detected]]
+if.app-id = 'com.tinyspeck.slackmacgap'
+run = "move-node-to-workspace S"
