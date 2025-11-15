@@ -30,3 +30,6 @@ defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
 defaults write com.apple.dock wvous-bl-corner -int 5
 defaults write com.apple.dock wvous-bl-modifier -int 0
 
+# Window manager
+defaults write -g NSWindowShouldDragOnGesture -bool true
+

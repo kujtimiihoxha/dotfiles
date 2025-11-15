@@ -21,9 +21,11 @@ brew "spaceman-diff"
 brew "zsh-autosuggestions"
 brew "zsh-syntax-highlighting"
 
-cask '1password'
+cask "1password"
+cask "orbstack"
+cask "nikitabobko/tap/aerospace"
 cask "1password-cli"
-cask 'visual-studio-code'
+cask "visual-studio-code"
 cask "discord"
 cask "spotify"
 cask "slack"
