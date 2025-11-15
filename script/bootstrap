@@ -152,5 +152,7 @@ then
   fi
 fi
 
+mkdir ~/.config
+
 echo ''
 echo '  All installed!'
