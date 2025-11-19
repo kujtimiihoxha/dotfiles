@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 brew "coreutils"
+brew "gh"
 brew "wget"
 brew "yt-dlp"
 brew "go"
